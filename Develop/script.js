@@ -1,39 +1,3 @@
-// // Assignment Code
-// var generateBtn = document.querySelector("#generate");
-
-// // Write password to the #password input
-// function writePassword() {
-//   var password = generatePassword();
-//   var passwordText = document.querySelector("#password");
-
-//   passwordText.value = password;
-
-// }
-
-// // logic for genereating password
-// function generatePassword(){
-//      var length = 8,
-//         charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
-       
-//     for (var i = 0, n = charset.length; i < length; ++i) {
-//         //retVal += charset.charAt(Math.floor(Math.random() * n));
-//     }
-//     //return retVal;
-// }
-
-    
-// window.alert("Please enter your password")
-
-
-
-
-
-
-
-// // Add event listener to generate button
-// generateBtn.addEventListener("click", writePassword);
-
-
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
@@ -56,11 +20,11 @@ var userArray = [];
 
 uppercaseArray [1]
 //-----------------------------------------------------------------
-  var numCharacter = prompt ("How much number of Character you want between 8 and 128?");
-  var numbers = confirm ("you want numbers in your password?");
-  var uppercases = confirm ("you want Uppercases in your password?");
-  var lowercases = confirm ("you want lowercases in your password?");
-  var characters = confirm ("you want special characters in your password?");
+  var numCharacter = prompt ("How long do you want your password to be");
+  var numbers = confirm (" Do you want numbers in your password?");
+  var uppercases = confirm (" do you want Uppercases in your password?");
+  var lowercases = confirm (" Do you want lowercases in your password?");
+  var characters = confirm (" Do you want special characters in your password?");
 
 
 // condition of the array
@@ -106,7 +70,7 @@ function writePassword() {
 }
 
 function copyToClipboard() {
-  // BONUS 
+ 
 }
 
 // Add event listener to generate button
